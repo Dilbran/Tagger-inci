@@ -74,14 +74,14 @@ async def info(event):
   await event.reply("Merhaba Benim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim:  Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım",
                     buttons=(
                       [
-                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/Startaggerbot?startgroup=a')
+                       Button.url('Beni Grubuna Ekle ➕', 'http://t.me/Tegger_utag_bot?startgroup=a')
                       ],
                       [
-                       Button.url('📢 Kanal', 'https://t.me/StarBotKanal'),
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('📢 Kanal', 'https://t.me/suportbott'),
+                       Button.url('🇹🇷 Sahibim', 'https://t.me/suportbott')
                       ],
                       [
-                       Button.url('🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻', 'https://github.com/MehmetAtes21/Tagger')
+                       Button.url('🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻', 'https://github.com/Efsane2323/Tagger')
                       ],
                     ),
                     link_preview=False
@@ -107,11 +107,11 @@ return await event.reply(f"Merhaba \nGrubunuzdakı Üyeleri Etiketleye Bilirim\n
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/StarBotKanal')
+                       Button.url('Beni Grubuna Ekle', 'http://t.me/Tegger_utag_bot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/suportbott')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim', 'https://t.me/suportbott')
                       ],
                     ),
                     link_preview=False)
@@ -130,11 +130,11 @@ async def handler(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', '@inci_utagbot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/Sohbetttadinda')
+                       Button.url('Beni Grubuna Ekle', 'http://t.me/Tegger_utag_bot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/suportbott')
                       ],
                       [
-                       Button.url('Sahibim', 't.me/nevarevladim')
+                       Button.url('Sahibim', 'https://t.me/suportbott')
                       ],
                     ),
                     link_preview=False)
@@ -142,7 +142,7 @@ async def handler(event):
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="komutlar"))
 async def handler(event):
-    await event.edit(f"Komutlarım:\n\n/all -text-\n/atag -text-\n/cancel - İşlemi Durdururum...\n\n❕ Yalnızca yöneticileri bu komutları kullanabilir.", buttons=(
+    await event.edit(f"Komutlarım:\n\n/utag -text-\n/atag -text-\n/cancel - İşlemi Durdururum...\n\n❕ Yalnızca yöneticileri bu komutları kullanabilir.", buttons=(
                       [
                       Button.inline("◀️ Geri", data="start")
                       ]
