@@ -6,10 +6,6 @@
          "description": "Botunuzun tokenini bura yazın",
          "value": ""
       },
-      "DATABASE_URL": {
-         "description": "my.telegram.org adresindən APP ID alın.",
-         "value": ""
-      },
       "OWNER_ID": {
          "description": "my.telegram.org adresindən APP ID alın.",
          "value": ""
